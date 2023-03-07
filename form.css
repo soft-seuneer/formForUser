@@ -1,0 +1,55 @@
+body {
+  background-image: url("pic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: turquoise;
+  background-color: tomato;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2%;
+}
+.my-form {
+  background-color: gray;
+  width: 40%;
+  height: 40%;
+  padding: 1%;
+  margin-left: 25%;
+  padding-left: 3%;
+}
+
+.error {
+  background-color: orangered;
+  color: white;
+  padding: 4px;
+  margin-left: 48px;
+  margin-bottom: 5px;
+  width: 55%;
+}
+.name,
+.email {
+  margin-bottom: 2rem;
+}
+
+#name,
+#email {
+  padding-right: 10rem;
+  padding-top: 2%;
+}
+#submit {
+  margin-left: 8.5%;
+  padding-right: 24.9%;
+  color: white;
+  font-weight: bold;
+  padding-left: 24.9%;
+  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.items {
+  list-style: none;
+  margin-left: 22%;
+}
